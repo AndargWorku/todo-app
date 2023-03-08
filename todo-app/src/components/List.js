@@ -44,7 +44,8 @@ const updateTask=(taskId,newValue)=>{
 }
   return (
     <div className="container">
-      <h1>add list the value</h1>
+      <h1>Wake up man !!! I Must be done this task</h1>
+      <h2>Add Todo list Task</h2>
       <Form onSubmit={addTask}/>
       <div className='content-scroll'>
       <Todo  tasks={tasks} completeTask={completeTask} deleteTask={deleteTask} updateTask={updateTask}/>
